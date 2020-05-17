@@ -1,0 +1,9 @@
+.Person {
+    transition: all 200ms;
+    user-select: none;
+    background-color: #000000;
+}
+
+.Person:hover {
+    transform: scaleX(1.1) scaleY(1.1);
+}

@@ -1,0 +1,17 @@
+ul.Navigation {
+    list-style: none;
+}
+ul.Navigation li {
+    display: inline-block;
+    margin: 20px;
+}
+ul.Navigation li a {
+    color: white;
+    text-decoration: none;
+}
+ul.Navigation li a:hover {
+    text-decoration: underline;
+}
+ul.Navigation li a.active {
+    color: brown;
+}
